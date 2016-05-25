@@ -13,7 +13,6 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="main2Jonny.css" />
 	<link rel="stylesheet" href="assets/css/flickity.css" />
-	<script src="assets/js/flickity.pkgd.min.js"></script>
 
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -61,9 +60,10 @@
 			<a href="#one" class="goto-next scrolly">Next</a>
 		</section>
 
+
 		<!-- One -->
 		<section id="one" class="spotlight style1 bottom">
-			<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+			<span class="image fit main"><img src="images/teach4.jpg" alt="" /></span>
 			<div class="content">
 				<div class="container">
 					<div class="row">
@@ -72,6 +72,9 @@
 								<h2>Skills I Learned</h2>
 								<p>At BSD Code & Design Adademy:</p>
 							</header>
+							<p>
+								During my two week time span at BSD I pciked up plethera of skills.
+							</p>
 						</div>
 						<div class="4u 12u$(medium)">
 							<p>
@@ -107,10 +110,7 @@
 						<h2>Obstacles</h2>
 						<p>What I overcame:</p>
 					</header>
-					<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
-					<ul class="actions">
-						<li><a href="#" class="button">Learn More</a></li>
-					</ul>
+					<p>Before I came to BSD Code & Design Academy, I had some prioi</p>
 				</div>
 				<a href="#three" class="goto-next scrolly">Next</a>
 			</section>
@@ -135,7 +135,7 @@
 			<section id="four" class="wrapper style1 special fade-up">
 				<div class="container">
 					<header class="major">
-						<h2>Accumsan sed tempus adipiscing blandit</h2>
+						<h2>From</h2>
 						<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
 					</header>
 					<div class="box alt">
@@ -157,7 +157,7 @@
 								<strong>H</strong>yper 
 								<strong>T</strong>ext
 								<strong>M</strong>arkup
-								<strong>L</strong>anguage". It is aa standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
+								<strong>L</strong>anguage". It is a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
 								</p>
 							</section>
 							<section class="4u 6u$(medium) 12u$(xsmall)">
@@ -212,6 +212,23 @@
 		<script src="assets/js/jquery.scrollex.min.js"></script>
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/util.js"></script>
+		<script src="assets/js/jquery.backstretch.min.js"></script>
+		
+		<script>
+		  $("#one.spotlight").backstretch([
+		   	"images/teach7.jpg"
+		    , "images/teach3.jpg"
+		    , "images/teach5.jpg"
+		  ], {duration: 3000, fade: 750});
+		</script>
+
+		<script>
+		  $("#three.spotlight").backstretch([
+		   	"images/teach1-l.jpg"
+		    , "images/teach3.jpg"
+		    , "images/teach5.jpg"
+		  ], {duration: 3000, fade: 750});
+		</script>
 		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 		<script src="assets/js/main.js"></script>
 
