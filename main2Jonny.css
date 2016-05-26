@@ -17,3 +17,60 @@ body.landing #header{
 	font-family: cursive;
 	margin-left: 10em;
 }
+
+#one.spotlight{
+	height: 1000px;
+}
+
+#skillslist{
+	font-size: 1.25em;
+}
+
+#skills{
+	color:white;
+	color:#225;
+}
+
+#obstacles{
+	color:white;
+}
+
+#future{
+	color:white;
+
+}
+
+#h2skills{
+	font-size: 2em;
+}
+
+p:hover {
+    color: white;
+}
+
+p{
+	color:white;
+}
+
+
+/* EXTENSION OF WEBSITE */
+
+#newUnder {
+
+}
+
+#reflection{
+
+}
+
+/* EXTENSION OF WEBSITE */
+
+
+
+
+
+
+
+
+
+
