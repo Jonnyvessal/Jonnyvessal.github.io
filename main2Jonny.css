@@ -18,9 +18,9 @@ body.landing #header{
 	margin-left: 10em;
 }
 
-<<<<<<< HEAD
+
 #one.spotlight{
-	height: 1000px;
+	height: 1200px;
 }
 
 #skillslist{
@@ -52,13 +52,21 @@ p:hover {
 p{
 	color:white;
 }
+ul{
+	color: white;
+}
+
+ul li{
+	color:white;
+}
 
 
 /* EXTENSION OF WEBSITE */
 
-#newUnder {
+#newUnder{
 
 }
+
 
 #reflection{
 
@@ -69,11 +77,5 @@ p{
 
 
 
-
-
-
-
-=======
->>>>>>> origin/master
 
 
