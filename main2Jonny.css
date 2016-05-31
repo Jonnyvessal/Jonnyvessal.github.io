@@ -27,6 +27,11 @@ body.landing #header{
 	font-size: 1.25em;
 }
 
+#skillslist2{
+	font-size: 1.25em;
+	padding-left: 6 fem;
+}
+
 #skills{
 	color:white;
 	color:#225;
@@ -60,6 +65,23 @@ ul{
 ul li{
 	color:white;
 }
+#obstacles ul li{
+	padding:25px; 
+}
+
+#future ul li{
+	padding:25px; 
+}
+
+#threehalf ul li{
+	padding:25px; 
+}
+
+#threehalf ul li strong:first-child {
+	color:red;
+}
+
+
 
 
 /* EXTENSION OF WEBSITE */
@@ -69,9 +91,10 @@ ul li{
 }
 
 
-#reflection{
-
+#reflection ul li{
+	padding:25px; 
 }
+
 
 /* EXTENSION OF WEBSITE */
 
